@@ -28,12 +28,12 @@ body {
   margin: 0 auto;
 }
 
-/*Start Header*/
+/*Start Site-Header*/
 
 #navbar {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 #navbar #logo-container {
@@ -61,16 +61,28 @@ body {
 }
 
 #nav-links a {
-  color: black;
-
+  color: #2B2F26;
 }
 
-/*End Header*/
+#nav-links a:hover {
+  color: #CD5D67;
+}
+
+#nav-links a:active {
+  color: #968772;
+}
+
+/*End Site-Header*/
 
 /*Start Main*/
 #headline {
   text-align: center;
   line-height: 90%;
+  margin-top: 2.5em;
 }
 
 /*End Main*/
+
+/*Start Footer*/
+
+/*End Footer*/
