@@ -169,6 +169,13 @@ blockquote {
   width: 100%;
 }
 
+#span-image-text {
+  line-height: 300px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
 /****************Newsletter*********************/
 
 .newsletter-body {
