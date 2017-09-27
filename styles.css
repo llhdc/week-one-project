@@ -31,12 +31,22 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 60px;
+  font-weight: lighter;
+}
 
 /*Start Site-Header*/
 
 #navbar {
+  margin-bottom: -10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  position: sticky;
+  top: 0px;
+  box-shadow: 0px 2px 0px 0px lightgrey;
   background-color: #FFFFFF;
 }
 
@@ -116,13 +126,14 @@ body {
 /*****************About*********************/
 
 .wrapper {
-  text-align: left;
-  margin: 0 10%;
-  width: 80%;
+  text-align: justify;
+  margin: 0;
+  width: auto;
 }
 
-main article {
-  margin: 0 100px;
+.copy {
+  padding: 0 90px;
+  line-height: 44px;
 }
 
 blockquote {
@@ -136,7 +147,7 @@ blockquote {
   color: gray;
 }
 
-.container {
+.about {
   display: inline;
   align-self: center;
 }
@@ -144,15 +155,24 @@ blockquote {
 #float-left {
   float: left;
   height: 10vh;
+  max-width: 100px;
 }
 
 #float-right {
-  flex-wrap: wrap;
+
 }
+
+#span-image {
+  background-image: url(images/background-3.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
 /****************Newsletter*********************/
 
 .newsletter-body {
-    background: url(images/background-2.jpg) no-repeat center fixed;
+  background: url(images/background-2.jpg) no-repeat center fixed;
 }
 
 table , td {
