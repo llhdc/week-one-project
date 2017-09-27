@@ -176,12 +176,22 @@ blockquote {
 
 }
 
+thead {
+  text-align: center;
+}
+
+table , td {
+  border-collapse: collapse;
+  border: 1px black solid;
+  padding: 10px;
+}
+
+.tinted {
+  background-color: #F2EADD;
+}
+
 /****************Newsletter*********************/
 
 .newsletter-body {
   background: url(images/background-2.jpg) no-repeat center fixed;
-}
-
-table , td {
-  padding: 10px;
 }
