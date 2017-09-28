@@ -122,6 +122,17 @@ h1 {
 
 /*Start Footer*/
 
+footer {
+  background-color: #2B2F27;
+  color: #F2F1E9;
+  padding: 0;
+  margin-bottom: -140px;
+}
+
+footer p {
+  padding: 30px;
+}
+
 /*End Footer*/
 
 /*****************About*********************/
