@@ -102,14 +102,25 @@ h1 {
   flex-wrap: wrap;
 }
 
-#product-images li {
+#product-images section {
   /*display: flex;*/
 }
 
-#product-images li img {
+#product-images section img {
   margin: 10px;
   flex: 2;
   height: 200px;
+  position: relative;
+}
+
+#product-images section span {
+  color: #F1EED7;
+  background-color: #2B2F27;
+  padding: 7px;
+  bottom: 50px;
+  right: 300px;
+  /*top: 250px;*/
+  position: relative;
 }
 
 .firstrow, .secondrow  img {
