@@ -34,6 +34,7 @@ body {
 h1 {
   font-size: 60px;
   font-weight: lighter;
+  padding-bottom: 10px;
 }
 
 /*Start Site-Header*/
@@ -132,7 +133,7 @@ h1 {
 }
 
 .copy {
-  padding: 0 90px;
+  padding: 30px 180px;
   line-height: 44px;
 }
 
@@ -158,10 +159,6 @@ blockquote {
   max-width: 100px;
 }
 
-#float-right {
-
-}
-
 #span-image {
   background-image: url(images/background-3.jpg);
   background-size: cover;
@@ -174,6 +171,32 @@ blockquote {
   text-align: center;
   color: #FFFFFF;
 
+}
+
+#facilities {
+  display: flex;
+}
+
+#facilities-left {
+  justify-content: flex-start;
+}
+
+#facilities-right {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 10px 15px;
+}
+
+#facilities-right-img {
+  max-width: 135px;
+  max-height: 135px;
+  padding-bottom: 20px;
+}
+
+#facilities-right-text {
+  font-size: 10px;
+  line-height: 20px;
 }
 
 thead {
@@ -192,6 +215,41 @@ table , td {
 
 /****************Newsletter*********************/
 
-.newsletter-body {
-  background: url(images/background-2.jpg) no-repeat center fixed;
+.news-wrapper {
+  background-image: url(images/background-2.jpg);
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  text-align: center;
+  background-color: white;
+  width: 50%;
+  height: 310px;
+}
+
+fieldset p {
+  font-size: 19px;
+  font-style: bold;
+}
+
+fieldset input {
+  border: 0;
+  border-bottom: 2px solid #B7AEA4;
+  width: 400px;
+  padding: 20px 0 5px 0;
+  color: grey;
+  font-size: 18px;
+}
+
+fieldset button {
+  background-color: #968774;
+  padding: 10px 45px;
+  margin: 20px 0;
+  border: 0;
+  color: white;
 }
